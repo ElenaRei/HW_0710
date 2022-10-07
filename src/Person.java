@@ -3,8 +3,10 @@ public class Person {
     int age;
     Ball ball;
 
-    /**  Тип данных   имя(ссылка на объект)  = создание объекта    конструктор
-     *     Person     person                 =      new            Person();
+
+    /**
+     * Тип данных   имя(ссылка на объект)  = создание объекта    конструктор
+     * Person     person                 =      new            Person();
      */
 
     public Person(String name, int age, Ball ball) {
@@ -12,4 +14,9 @@ public class Person {
         this.age = age;
         this.ball = ball;
     }
+
+    public Person() {
+
+    }
 }
+
